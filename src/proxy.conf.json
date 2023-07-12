@@ -1,0 +1,12 @@
+{
+  "/api/*": {
+    "target": "https://api.publicapis.org/entries",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": false,
+    "logLevel": "debug"
+  }
+}
+
